@@ -221,5 +221,23 @@ findGrade();
     }
  }
  guruh(150);
- guruh(175);
- guruh(180);
+ 
+ let engine = "run";
+ switch (engine) {
+    case "stop":
+        console.log("mator o`chiq");
+        break;
+    case "run":
+        console.log("mator yur");
+        break;
+        default:
+            console.log('mator mavjud emas');
+ }
+
+ function month() {
+    console.log('oylar')
+ }
+ for (let oy = 28; oy < 30; oy++) {
+    month();
+ }
+ yanvar(31);
