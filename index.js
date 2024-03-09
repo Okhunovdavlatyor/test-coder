@@ -241,3 +241,14 @@ findGrade();
     month();
  }
  yanvar(31);
+
+ let speed = 100;
+
+ while (speed > 80) {
+    console.log('mashina tez')
+    break;
+ }
+ do {
+    console.log('mashina sekin')
+    break;
+ } while(speed>60);
