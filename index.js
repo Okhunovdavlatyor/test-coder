@@ -234,13 +234,7 @@ findGrade();
             console.log('mator mavjud emas');
  }
 
- function month() {
-    console.log('oylar')
- }
- for (let oy = 28; oy < 30; oy++) {
-    month();
- }
- yanvar(31);
+
 
  let speed = 100;
 
@@ -252,3 +246,16 @@ findGrade();
     console.log('mashina sekin')
     break;
  } while(speed>60);
+
+ let classList = ['A class', 'B class', 'C class', 'G class'];
+ //console.log(classList.length);
+ //console.log(classList.push('D class'));
+ //console.log(classList.unshift('B class'));
+ //classList.pop();
+ //classList.shift();
+ //console.log(classList);
+ //console.log(classList.splice(2,3));
+
+ let brandList = ['Nike', 'Naver', 'Calvin', 'Prado']
+ console.log(classList.concat(brandList));
+ console.log(classList.sort);
