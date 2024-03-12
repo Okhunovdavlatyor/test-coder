@@ -602,4 +602,9 @@ const mockPostDate =
     }
 ]
 
-console.log()
+//console.log(mockPostDate.sort());
+//console.log(mockPostDate.map((a) =>a.id));
+//console.log(mockPostDate.map((a) =>a.userId));
+//console.log(mockPostDate.map((a) =>a.title));
+//console.log(mockPostDate.filter((a) => a.id));
+
