@@ -3501,3 +3501,14 @@ const mockCommentDate =
         "body": "perspiciatis quis doloremque\nveniam nisi eos velit sed\nid totam inventore voluptatem laborum et eveniet\naut aut aut maxime quia temporibus ut omnis"
     }
 ]
+//console.log(mockCommentDate.length);
+//console.log(mockCommentDate.sort());
+//console.log(mockCommentDate.map((a) =>a.name));
+//console.log(mockCommentDate.map((a) =>a.email));
+//console.log(mockCommentDate.map((a) =>a.id));
+//console.log(mockCommentDate.map((a) =>a.postId));
+//console.log(mockCommentDate.filter((a) =>a.name));
+//console.log(mockCommentDate.filter((a) =>a.id));
+//console.log(mockCommentDate.filter((a) =>a.email));
+//console.log(mockCommentDate.filter((a) =>a.id > 210));
+console.log(mockCommentDate)
